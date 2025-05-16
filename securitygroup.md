@@ -50,12 +50,12 @@
 ### Method 2: Using AWS CLI
 
 1. Create basic security group:
-\```bash
+```bash
 aws ec2 create-security-group \
     --group-name "your-security-group-name" \
     --description "Your security group description" \
     --vpc-id vpc-xxxxxxxx
-\```
+```
 
 ### Add Inbound Rule
 
